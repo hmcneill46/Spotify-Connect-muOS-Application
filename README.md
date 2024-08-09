@@ -23,7 +23,7 @@ This application enables devices running muOS to play music from Spotify through
 
 4. **Run the Application**: Go to the `Applications` menu on your device and run the app to toggle whether your device is used as a Spotify Connect endpoint.*
 
-5. **Play Music**: You should now see your device - "muOS Device - xxxxxx" — in your Spotify Connect menu, ready to play music!
+5. **Play Music**: You should now see your device - "`muOS Device - xxxxxx`" — in your Spotify Connect menu, ready to play music!
 
 **You can tell if the app is running by launching Spotify on another device and checking if your muOS device appears as an option to play music.*
 
