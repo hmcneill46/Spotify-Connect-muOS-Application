@@ -35,6 +35,10 @@ muOS is based on the [librespot](https://github.com/librespot-org/librespot) pro
 
 This project is licensed under the same license as librespot. Please see their [LICENSE](https://github.com/librespot-org/librespot/blob/master/LICENSE) file for details.
 
+## Caveat
+
+**Right now muOS Only supports one audio source, so whilst the app is running in the background, game audio will not work. Running the application again to disable it will fix this.**
+
 ## Disclaimer from librespot
 
 "Using this code to connect to Spotify's API is probably forbidden by them. Use at your own risk."
