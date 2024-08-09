@@ -37,4 +37,4 @@ This project is licensed under the same license as librespot. Please see the [LI
 
 ## Disclaimer from librespot
 
-Using this code to connect to Spotify's API is probably forbidden by them. Use at your own risk.
+"Using this code to connect to Spotify's API is probably forbidden by them. Use at your own risk."
