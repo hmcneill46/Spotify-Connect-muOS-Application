@@ -33,7 +33,7 @@ muOS is based on the [librespot](https://github.com/librespot-org/librespot) pro
 
 ## License
 
-This project is licensed under the same license as librespot. Please see the [LICENSE](https://github.com/librespot-org/librespot/blob/master/LICENSE) file for details.
+This project is licensed under the same license as librespot. Please see their [LICENSE](https://github.com/librespot-org/librespot/blob/master/LICENSE) file for details.
 
 ## Disclaimer from librespot
 
