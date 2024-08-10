@@ -1,5 +1,8 @@
 #!/bin/sh
 
+. /opt/muos/script/var/func.sh
+. /opt/muos/script/var/device/device.sh
+
 # Define paths
 LIBRESPOT_BIN="/mnt/mmc/MUOS/application/.librespot/librespot"
 CACHE_DIR="/tmp/spotify_cache"
@@ -7,7 +10,7 @@ DEVICE_ID_FILE="/mnt/mmc/MUOS/application/.librespot/device_id.txt"
 
 # Generate a random device ID on the first run
 if [ ! -f "$DEVICE_ID_FILE" ]; then
-    DEVICE_ID="muOS Device - $(shuf -i 100000-999999 -n 1)"
+    DEVICE_ID="$DC_DEV_NAME [$(shuf -i 100000-999999 -n 1)]"
     echo "$DEVICE_ID" > "$DEVICE_ID_FILE"
 else
     DEVICE_ID=$(cat "$DEVICE_ID_FILE")
