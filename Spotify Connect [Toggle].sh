@@ -1,5 +1,14 @@
 #!/bin/sh
 
+if pgrep -f "playbgm.sh" >/dev/null; then
+	killall -q "playbgm.sh" "mp3play"
+fi
+
+if pgrep -f "muplay" >/dev/null; then
+	killall -q "muplay"
+	rm "$SND_PIPE"
+fi
+
 . /opt/muos/script/var/func.sh
 . /opt/muos/script/var/device/device.sh
 
