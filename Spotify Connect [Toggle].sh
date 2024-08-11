@@ -33,6 +33,6 @@ if [ -n "$LIBRESPOT_PID" ]; then
     kill "$LIBRESPOT_PID"
 else
     echo "librespot is not running. Starting it..."
-    nice --20 "$LIBRESPOT_BIN" --name "$DEVICE_ID" --cache "$CACHE_DIR" &
+    nice --20 "$LIBRESPOT_BIN" --name "$DEVICE_ID" --cache "$CACHE_DIR" --enable-volume-normalisation --normalisation-pregain 0 &
 fi
 
