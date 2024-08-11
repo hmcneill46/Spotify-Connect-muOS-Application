@@ -37,7 +37,7 @@ This project is licensed under the same license as librespot. Please see their [
 
 ## Caveat
 
-Right now muOS Only supports one audio source, so whilst the app is running in the background, game audio will not work. Running the application again to disable it will fix this.
+Right now muOS Only supports one audio source, so whilst the app is running in the background, game audio will not work, you can however listen to Spotify whilst in game. Running the application again to disable it will fix this, and bring back game audio.
 
 ## Disclaimer from librespot
 
