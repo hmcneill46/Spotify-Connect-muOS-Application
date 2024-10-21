@@ -1,3 +1,6 @@
+# THIS IS NOW OUTDATED - Please use JanTrueno's GUI Based application instead:
+https://github.com/PortsMaster/PortMaster-New/tree/main/ports/librespot
+
 # Spotify-Connect-muOS-Application
 
 This application enables devices running muOS to play music from Spotify through Spotify Connect. It is built on top of [librespot](https://github.com/librespot-org/librespot), a Rust implementation of the Spotify client. This repository includes a compiled version of librespot for the `aarch64` architecture, making it compatible with the RG35XX line of devices.
